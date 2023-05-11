@@ -1,2 +1,6 @@
 #!/usr/bin/python3
-"""pro
+"""program that prints the alphabet in uppercase"""
+
+
+import string
+print(string.ascii_uppercase)
