@@ -2,7 +2,7 @@
 """ function that prints interger with "{:d}".format() """
 
 
-def safe_print_interger(value):
+def safe_print_integer(value):
     try:
         print("{:d}".format(value))
         return (True)
