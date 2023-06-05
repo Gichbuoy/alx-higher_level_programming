@@ -45,16 +45,5 @@
 - process of representing the essential features of an object while hiding impelemention details
 - present if both data hiding and encapsulation is used
 * Data Abstraction = Data Encapsulation + Data Hiding
-* Uses __str__ && __repr__ methods
 
-#### __str__()
-- Define a string representation of an object when the str() or print() function is called on the object
-- Returns a readable string that describes object state/properties
-
-#### __repr__()
-- Define a string representation of an object  when the repr() is called on the object
-- Returns a string that represents a valid python expression that can be used to recreate the object.
-
-
-### Destructor [__del__()]
--Special method that is automatically invoked when an object is about to be destroyed. 
+- 
