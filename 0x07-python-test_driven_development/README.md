@@ -18,6 +18,7 @@
 
 
 
+# Types of Tests
 
 ## Functional Testing
 - This is a type of black-box testing that is based on the specifications of the software that is to be tested. The application is tested by providing input and then the results are examined that need to conform to the functionality it was intended for. Functional testing of a software is conducted on a complete, integrated system to evaluate the system’s compliance with its specified requirements.
