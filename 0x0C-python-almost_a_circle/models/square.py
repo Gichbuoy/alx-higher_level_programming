@@ -50,7 +50,7 @@ class Square(Rectangle):
                     self.x = arg
                 elif n == 3:
                     self.y = arg
-                a += 1
+                n += 1
 
         elif kwargs and len(kwargs) != 0:
             for i, j in kwargs.items():
