@@ -3,5 +3,6 @@ Getting started with python
     * data analysis
     * AI
     * Data Science
+    * Also used in back-end dev
       
 
