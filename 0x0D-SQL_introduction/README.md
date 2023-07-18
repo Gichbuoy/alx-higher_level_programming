@@ -49,3 +49,19 @@ It includes commands such as **CREATE**, **ALTER**, and **DROP**, which are used
 
 - DML focuses on manipulating the data within the database. 
 It includes commands such as **SELECT**, **INSERT**, **UPDATE**, and **DELETE**, which are used to retrieve, insert, update, and delete data from database tables.
+
+### Install MySQL on Ubuntu
+```
+$ sudo apt install mysql-server
+```
+
+```
+$ mysql --version
+```
+- checks version of MySQL
+
+
+### Connect to your MySQL server
+```
+$ sudo mysql
+```
