@@ -8,7 +8,7 @@ It uses a relational model to represent data and supports the manipulation and q
 
 ### SQL
 
-- SQL stands for Structured Query Language. It is a programming language used to communicate with and manipulate relational databases.
+- SQL stands for Structured Query Language. It's a programming language used to communicate with and manipulate relational databases.
  SQL allows users to create, retrieve, update, and delete data in a database, as well as define and manage the database structure.
 
 - MySQL is a popular open-source relational database management system (RDBMS) based on the SQL language. It is widely used for building web applications and powering dynamic websites. MySQL is known for its scalability, reliability, and ease of use.
