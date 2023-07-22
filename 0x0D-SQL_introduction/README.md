@@ -3,8 +3,8 @@
 - It is designed to efficiently store, manage, and retrieve data for various purposes.
 
 ### Relational Database
-- A relational database is a type of database that organizes data into tables with predefined relationships between them. 
-It uses a relational model to represent data and supports the manipulation and querying of data using a language called Structured Query Language (SQL).
+- A relational database is a type of database that organizes data into tables, with predefined relationships between them. 
+- It uses a relational model to represent data and supports the manipulation and querying of data using a language called Structured Query Language (SQL).
 
 ### SQL
 
