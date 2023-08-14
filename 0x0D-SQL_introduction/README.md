@@ -3,12 +3,12 @@
 - It is designed to efficiently store, manage, and retrieve data for various purposes.
 
 ### Relational Database
-- A relational database is a type of database that organizes data into tables with predefined relationships between them. 
-It uses a relational model to represent data and supports the manipulation and querying of data using a language called Structured Query Language (SQL).
+- A relational database is a type of database that organizes data into tables, with predefined relationships between them. 
+- It uses a relational model to represent data and supports the manipulation and querying of data using a language called Structured Query Language (SQL).
 
 ### SQL
 
-- SQL stands for Structured Query Language. It is a programming language used to communicate with and manipulate relational databases.
+- SQL stands for Structured Query Language. It's a programming language used to communicate with, and manipulate relational databases.
  SQL allows users to create, retrieve, update, and delete data in a database, as well as define and manage the database structure.
 
 - MySQL is a popular open-source relational database management system (RDBMS) based on the SQL language. It is widely used for building web applications and powering dynamic websites. MySQL is known for its scalability, reliability, and ease of use.
