@@ -2,25 +2,17 @@
 
 const request = require('request');
 
-const url = process.argv[2];
+const epNumber = process.argv[2];
 
-// GET request to starwars API
-request(url, function (error, response, body) {
+const API = 'https://swapi-api.hbtn.io/api/films/';
+
+request(API + epNumber, function (error, response, body) {
   if (error) {
     console.log(error);
   } else if (response.statusCode === 200) {
-    const films = JSON.parse(body).results;
-    let count = 0;
-    for (const filmIndex in films) {
-      const filmChars = films[filmIndex].characters;
-      for (const charIndex in filmChars) {
-        if (filmChars[charIndex].includes('18')) {
-          count++;
-        }
-      }
-    }
-    console.log(count);
+    const responseJSON = JSON.parse(body);
+    console.log(responseJSON.title);
   } else {
-    console.log('An error occured. Status code: ' + response.statusCode);
+    console.log('Error code: ' + response.statusCode);
   }
 });
